@@ -1,0 +1,14 @@
+.splashContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fd664b;
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    background-image: url(/public/assets/image/splash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

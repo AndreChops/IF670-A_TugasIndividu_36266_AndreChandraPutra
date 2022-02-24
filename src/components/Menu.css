@@ -1,0 +1,182 @@
+ion-menu ion-content {
+  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+  --overflow:hidden;
+}
+
+ion-menu.md ion-content {
+  --padding-start: 0px;
+  --padding-end: 0px;
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+}
+
+ion-menu.md ion-list {
+  padding: 20px 0;
+}
+
+ion-menu.md ion-note {
+  margin-bottom: 30px;
+}
+
+ion-menu.md ion-list-header, ion-menu.md ion-note {
+  padding-left: 10px;
+}
+
+ion-menu.md ion-list#inbox-list {
+  border-bottom: 1px solid var(--ion-color-step-150, #d7d8da);
+}
+
+ion-menu.md ion-list#inbox-list ion-list-header {
+  font-size: 22px;
+  font-weight: 600;
+  min-height: 20px;
+}
+
+ion-menu.md ion-list#labels-list ion-list-header {
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: #757575;
+  min-height: 26px;
+}
+
+ion-menu.md ion-item {
+  --padding-start: 10px;
+  --padding-end: 10px;
+  border-radius: 4px;
+}
+
+ion-menu.md ion-item.selected {
+  --background: rgb(255, 138, 95);
+}
+
+ion-menu.md ion-item.selected ion-icon {
+  color: #ffffff;
+}
+
+ion-menu.md ion-item.selected ion-label {
+  color: #ffffff;
+}
+
+ion-menu.md ion-item ion-icon {
+  color: #000000;
+}
+
+ion-menu.md ion-item ion-label {
+  font-weight: 500;
+}
+
+ion-menu.ios ion-content {
+  --padding-bottom: 20px;
+}
+
+ion-menu.ios ion-list {
+  padding: 20px 0 0 0;
+}
+
+ion-menu.ios ion-note {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+ion-menu.ios ion-item {
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --min-height: 50px;
+}
+
+ion-menu.ios ion-item ion-icon {
+  font-size: 24px;
+  color: #73849a;
+}
+
+ion-menu.ios ion-item .selected ion-icon {
+  color: #ffffff;
+}
+
+ion-menu.ios ion-list#labels-list ion-list-header {
+  margin-bottom: 8px;
+}
+
+ion-menu.ios ion-list-header,
+ion-menu.ios ion-note {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+ion-menu.ios ion-note {
+  margin-bottom: 8px;
+}
+
+ion-note {
+  display: inline-block;
+  font-size: 16px;
+  color: var(--ion-color-medium-shade);
+}
+
+ion-item.selected {
+  background-color: rgb(253, 167, 136);
+} 
+
+#sidebar-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar-img{
+  background-color: rgb(255, 138, 95);
+  height: 100%;
+  overflow: hidden;
+}
+
+#sidebar-card{
+	background: rgb(255, 255, 255);
+  height: 22%;
+	display: block;
+	border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+	text-align: center;
+  box-shadow: none;
+}
+
+#pointer {
+	height: 40px;
+	width: 40px;
+	background: rgb(255, 255, 255);
+	margin: 0 auto;
+	transform: rotate(45deg);
+	border-radius: 0 0 5px 0;
+	margin-top: -30px;
+	position: relative;
+	left: calc(0.5vw - 50px);
+  z-index: -1;
+}
+
+#sidebar-title1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  font-size: 23px;
+}
+
+#sidebar-title2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  color: rgb(255, 138, 95);
+  text-align: left;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#sidebar-icon{
+  font-size: 30px;
+}
+
+.sidebar-logo{
+  color: rgb(255, 255, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 80%;
+}
+

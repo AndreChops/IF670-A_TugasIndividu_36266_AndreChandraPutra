@@ -1,0 +1,86 @@
+#cancel-button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-color-gray {
+    color: gray;
+  }
+  
+.font-type {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.font-size-title {
+    font-size: large;
+}
+  
+.font-size-subtitle {
+    font-size: small;
+}
+  
+.img-size {
+    padding: 0px;
+}
+  
+.img-pd {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+  
+.img-radius {
+    border-radius: 50%;
+    padding: 7px;
+}
+  
+ion-content {
+    --background: #edecea;
+}
+
+ion-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ion-label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ion-card-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+  
+.pdt-4 {
+    padding-top: 15px;
+    padding-bottom: 0px;
+
+}
+
+#cancel-button{
+    float: right;
+    margin: 10px;
+    text-transform: none;
+}
+
+#cancel-label{
+    color: black;
+    font-size: 15px;
+    opacity: 0.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.no-decor{
+    text-decoration: none;
+    color: black;
+}
+
+#search-bar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.search-header{
+    z-index: -1;
+}
